@@ -1,0 +1,37 @@
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-size: 35px;
+    margin: 1.8rem 1rem;
+}
+div{
+    text-align: center;
+}
+
+.generate-btn{
+    background-color: blue;
+    color: #fff;
+    width: 250px;
+    height: 85px;
+    border: 2px solid green;
+    border-radius: 8px;
+    transition: 0.3s transform;
+}
+.generate-btn:hover{
+    background-color: green;
+    border: 2px solid blue;
+    transform: scale(1.1);
+}
+
+#quote-img{
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+/* #quote-output , #quote-auther{
+    font-size: 30px;
+} */
